@@ -1,0 +1,23 @@
+<html>
+    <body>
+        <form action="http://127.0.0.1:8081/process_get" method = "GET">
+            First Name: <input type = "text" name = "first_name">  <br>
+            Last Name: <input type = "text" name = "last_name">
+            <input type = "submit" value = "Submit">
+         </form>
+         <br>
+         <h1>Sad je ovo post ispod</h1>
+         <form action="http://127.0.0.1:8081/process_post" method = "POST">
+            First Name: <input type = "text" name = "first_name">  <br>
+            Last Name: <input type = "text" name = "last_name">
+            <input type = "submit" value = "Submit">
+         </form>
+         <br>
+         <h2>sad radim file upload lol</h2>
+         <form action="http://localhost:8081/file_upload" method="POST" enctype="multipart/form-data">
+            <input type="file" name="file" id="file">
+            <br>
+            <input type="submit" value="upload file">
+        </form>
+    </body>
+</html>
